@@ -1,0 +1,73 @@
+body{
+    background: rgb(53, 52, 52);
+}
+section{
+    margin: auto;
+    width: 350px;
+    height: 370px;
+    background: rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 4px 4px 3px black;
+}
+#resultado{
+    width: 350px;
+    height: 60px;
+    background: rgb(212, 207, 207);
+    margin-bottom: 8px;
+    border-radius: 7px;
+}
+p{
+    position: relative;
+    top: 25%;
+    left: 3%;
+    font: bold 25px Arial;
+}
+#números{
+    width: 300px;
+    height: 300px;
+    margin-left: 4px;
+}
+.btn-num{
+    margin: 4px;
+    margin-top: 2px;
+    width: 65px;
+    height: 65px;
+    border: 0px;
+    border-radius: 7px;
+    font: bold 30px Arial;
+    color: white;
+    background: rgb(10, 10, 10);
+}
+.btn-num:hover{
+    background: rgb(24, 23, 23);
+}
+#z{
+    position: relative;
+    left: 26%;
+}
+#operações{
+    position: relative;
+    left: 68%;
+    bottom: 81%;
+    width: 100px;
+    height: 300px;
+}
+.btn-op{
+    margin: 4px;
+    margin-top: 2px;
+    width: 100px;
+    height: 50.1px;
+    border: 0px;
+    border-radius: 7px;
+    background: rgb(78, 189, 4);
+    font: bold 30px Arial;
+}
+.btn-op:hover{
+    background: rgb(65, 156, 4);
+}
+footer{
+    margin: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
